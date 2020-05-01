@@ -1,0 +1,22 @@
+diff --git a/xrdpmouse/rdpMouse.c b/xrdpmouse/rdpMouse.c
+index 555e1e3..e588474 100644
+--- a/xrdpmouse/rdpMouse.c
++++ b/xrdpmouse/rdpMouse.c
+@@ -194,7 +194,7 @@ rdpInputMouse(rdpPtr dev, int msg,
+             pointer->button_mask = pointer->button_mask | 2;
+             PtrAddEvent(pointer);
+             break;
+-        case WM_BUTTON4UP:
++/*        case WM_BUTTON4UP:
+             pointer->button_mask = pointer->button_mask & (~8);
+             PtrAddEvent(pointer);
+             break;
+@@ -241,7 +241,7 @@ rdpInputMouse(rdpPtr dev, int msg,
+         case WM_BUTTON9DOWN:
+             pointer->button_mask = pointer->button_mask | 256;
+             PtrAddEvent(pointer);
+-            break;
++            break; */
+     }
+     return 0;
+ }
