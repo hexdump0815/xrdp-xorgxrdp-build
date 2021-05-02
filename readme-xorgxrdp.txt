@@ -17,6 +17,6 @@ result:
 ./xrdpdev/.libs/xrdpdev_drv.so
 ./xrdpmouse/.libs/xrdpmouse_drv.so
 
-tar czf /tmp/xorgxrdp-focal-armv7l.tar.gz /usr/lib/xorg/modules/*/*xrdp* /usr/lib/xorg/modules/libxorgxrdp* /etc/X11/xrdp/xorg.conf
-tar czf /tmp/xorgxrdp-focal-aarch64.tar.gz /usr/lib/xorg/modules/*/*xrdp* /usr/lib/xorg/modules/libxorgxrdp* /etc/X11/xrdp/xorg.conf
-tar czf /tmp/xorgxrdp-focal-x86_64.tar.gz /usr/lib/xorg/modules/*/*xrdp* /usr/lib/xorg/modules/libxorgxrdp* /etc/X11/xrdp/xorg.conf
+tar czf /tmp/xorgxrdp-0.2.16-focal-armv7l.tar.gz /usr/lib/xorg/modules/*/*xrdp* /usr/lib/xorg/modules/libxorgxrdp* /etc/X11/xrdp/xorg.conf
+tar czf /tmp/xorgxrdp-0.2.16-focal-aarch64.tar.gz /usr/lib/xorg/modules/*/*xrdp* /usr/lib/xorg/modules/libxorgxrdp* /etc/X11/xrdp/xorg.conf
+tar czf /tmp/xorgxrdp-0.2.16-focal-x86_64.tar.gz /usr/lib/xorg/modules/*/*xrdp* /usr/lib/xorg/modules/libxorgxrdp* /etc/X11/xrdp/xorg.conf
