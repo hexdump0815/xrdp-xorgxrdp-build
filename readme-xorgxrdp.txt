@@ -1,6 +1,6 @@
 # built on ubuntu 20.04 focal
 
-apt-get install xserver-xorg-dev nasm xrdp libgbm-dev autoconf automake libtool pkg-config libepoxy-dev
+apt-get install xserver-xorg-dev nasm libgbm-dev autoconf automake libtool pkg-config libepoxy-dev
 # also required: xrdp needs to be built and installed first
 export PKG_CONFIG_PATH=/opt/xrdp/lib/pkgconfig
 git clone https://github.com/neutrinolabs/xorgxrdp.git
