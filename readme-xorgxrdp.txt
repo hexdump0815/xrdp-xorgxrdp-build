@@ -10,6 +10,7 @@ patch -p1 < /compile/doc/xrdp-xorgxrdp-build/fix-mouse-buttons.patch
 ./bootstrap 
 ./configure --enable-glamor
 make
+make install
 
 result:
 ./module/.libs/libxorgxrdp.so
