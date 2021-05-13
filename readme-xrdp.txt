@@ -10,6 +10,6 @@ git submodule update --init --recursive
 make
 make install
 
-tar czf /tmp/opt-xrdp-0.9.16-focal-armv7l.tar.gz /opt/xrdp /etc/init.d/xrdp /etc/pam.d/xrdp-sesman /etc/xrdp
-tar czf /tmp/opt-xrdp-0.9.16-focal-aarch64.tar.gz /opt/xrdp /etc/init.d/xrdp /etc/pam.d/xrdp-sesman /etc/xrdp
-tar czf /tmp/opt-xrdp-0.9.16-focal-x86_64.tar.gz /opt/xrdp /etc/init.d/xrdp /etc/pam.d/xrdp-sesman /etc/xrdp
+tar czf /tmp/opt-xrdp-0.9.16-focal-armv7l.tar.gz /opt/xrdp /lib/systemd/system/xrdp.service /lib/systemd/system/xrdp-sesman.service /etc/pam.d/xrdp-sesman /etc/xrdp
+tar czf /tmp/opt-xrdp-0.9.16-focal-aarch64.tar.gz /opt/xrdp /lib/systemd/system/xrdp.service /lib/systemd/system/xrdp-sesman.service /etc/pam.d/xrdp-sesman /etc/xrdp
+tar czf /tmp/opt-xrdp-0.9.16-focal-x86_64.tar.gz /opt/xrdp /lib/systemd/system/xrdp.service /lib/systemd/system/xrdp-sesman.service /etc/pam.d/xrdp-sesman /etc/xrdp
